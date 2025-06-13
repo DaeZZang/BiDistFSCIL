@@ -22,7 +22,7 @@ mini-imagenet
     $ python test.py --dataset mini-imagenet --exp_dir experiment --needs_finetune --ft_iters 100 --ft_lr 0.001 --ft_factor 1.0 --ft_T 16 --w_d 100 --part_frozen --ft_KD_all --ft_teacher fixed --bilateral --BC_hidden_dim 64 --BC_lr 0.01 --w_BC_binary 50 --EMA_logits --w_l 1 --EMA_FC_lr 0.01
 
 ## Acknowledgment
-Our project references the codes in the following repos.
+Our project references the codes in the following repos.d
 
 - [fscil](https://github.com/xyutao/fscil)
 - [CEC](https://github.com/icoz69/CEC-CVPR2021)
